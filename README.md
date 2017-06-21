@@ -14,4 +14,15 @@
 
 --	Add Groovy Script Step in test case before the step where the values are to be passed
 
--------
+--------------
+--------------
+
+## For CreateCSVReport.groovy
+* Can be used at following places
+1. As TearDown Script at Project/TestSuite/Testcase level
+2. As groovy step in test case 
+
+* Do not miss setting Project level custom property ProduceReports to 'true' else you can remove this line from snippet
+
+--------------
+--------------
