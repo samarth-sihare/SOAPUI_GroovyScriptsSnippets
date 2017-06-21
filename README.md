@@ -10,7 +10,8 @@
 6.	poi-ooxml-schemas-3.8-20120326.jar
 7.	poi-scratchpad-3.8-20120326.jar
 
---	Copy and paste the required jar (mentioned above) files to the \lib folder of SoapUI
+--	Copy and paste the required jar (mentioned above) files to the \lib folder of SoapUI. Versions of these jars can be of your desire
 
 --	Add Groovy Script Step in test case before the step where the values are to be passed
+
 -------
