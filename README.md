@@ -1,1 +1,1 @@
-# SOAPUI_GroovyScriptsSnippets
+# SOAPUI Groovy Scripts Snippets
