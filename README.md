@@ -24,5 +24,7 @@
 
 * Do not miss setting Project level custom property ProduceReports to 'true' else you can remove this line from snippet
 
+** This will not work for each data row that will be passed using LoadTestDataFromExcelSheet.groovy **
+
 --------------
 --------------
