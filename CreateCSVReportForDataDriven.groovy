@@ -58,11 +58,11 @@ try {
 				}
 			}
 		}
-/*		//This will not let the message cell blank in case there is no message
-		if(testStep.assertionList.errors.remove(null)){
+		//This will not let the message cell blank in case there is no message
+		if(testStep.assertionList.errors.every{it == null}){
 			resultsFile.append('-NA-')
 		}
-*/
+
         resultsFile.append('"');    //End of messages.
         
     }
