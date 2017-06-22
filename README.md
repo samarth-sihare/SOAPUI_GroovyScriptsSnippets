@@ -28,3 +28,15 @@
 
 --------------
 --------------
+
+## For CreateCSVReportForDataDriven.groovy
+* Can be used at following places
+1. You can add a Scripted Step for this and call form LoadTestDataFromExcelSheet.groovy or use your innovation
+2. Tweek the code as per your assertions and steps etc.
+
+* Do not miss setting Project level custom property ProduceReports to 'true' else you can remove this line from snippet
+
+--------------
+--------------
+
+PS: These may not be best approach. Feel free to suggest any better approach.
