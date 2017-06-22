@@ -59,7 +59,7 @@ try {
 			}
 		}
 		//This will not let the message cell blank in case there is no message
-		if( ! testStep.assertionList.errors.isNull){
+		if(testStep.assertionList.errors){
 			resultsFile.append('-NA-')
 		}
 
